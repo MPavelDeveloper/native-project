@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Maitree200'; 
+	src: url(/assets/fonts/Maitree-ExtraLight.ttf); 
+}
+
+@font-face {
+	font-family: 'Maitree300'; 
+	src: url(/assets/fonts/Maitree-Light.ttf); 
+}
+
+@font-face {
+	font-family: 'Maitree400'; 
+	src: url(/assets/fonts/Maitree-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'Maitree500'; 
+	src: url(/assets/fonts/Maitree-Medium.ttf); 
+}
+
+@font-face {
+	font-family: 'Maitree600'; 
+	src: url(/assets/fonts/Maitree-SemiBold.ttf); 
+}
+
+@font-face {
+	font-family: 'Maitree700'; 
+	src: url(/assets/fonts/Maitree-Bold.ttf); 
+}
+
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    font-family: 'Maitree400', 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background: lightcyan;
+}
+
+.container {
+    padding: 0 12px;
+}
+
+.header__title {
+    font-size: 32px;
+}
